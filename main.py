@@ -37,7 +37,7 @@ parser.add_argument('--seq_len', type=int, default=10)
 parser.add_argument('--stride', type=int, default=1)
 parser.add_argument('--lr', type=float, default=0.00001)
 parser.add_argument('--batch_size', type=int, default=64)
-parser.add_argument('--epoch', type=int, default=3)
+parser.add_argument('--epoch', type=int, default=10)
 parser.add_argument('--hidden_dim', type=int, default=256)
 
 parser.add_argument('--alpha', type=float, default=1)
